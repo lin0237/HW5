@@ -15,24 +15,10 @@ int main()
 		a[0]++;
 		if(sum==3)
 		a[1]++;
-		if(sum==4)
-		a[2]++;
-		if(sum==5)
-		a[3]++;
-		if(sum==6)
-		a++;
-		if(sum==7)
-		a++;
-		if(sum==8)
-		a++;
-		if(sum==9)
-		a++;
-		if(sum==10)
-		a++;
 		if(sum==11)
-		a++;
+		a[9]++;
 		if(sum==12)
-		a++; The original calculation method*/
+		a[10]++; The original calculation method*/
 		a[sum]++;
 	}
 	printf("Sum\tFrequency\n");
